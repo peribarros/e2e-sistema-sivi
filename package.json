@@ -1,0 +1,21 @@
+{
+  "name": "e2e-sistema-sivi",
+  "version": "1.0.0",
+  "description": "TBD",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
+    "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "cypress": "^13.6.3",
+    "eslint": "^8.56.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-cypress": "^2.15.1"
+  }
+}
